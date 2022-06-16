@@ -56,8 +56,9 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\HelperScripts\TagHolder.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\MouseLook.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Standard\_Antialiasing\FXAAPreset2.shader" />

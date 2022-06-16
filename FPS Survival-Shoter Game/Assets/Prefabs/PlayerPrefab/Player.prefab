@@ -180,6 +180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2edef94e1afb1694c8e925751770fdba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  jumpForce: 10
 --- !u!1 &4584563878817415561
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4584563878817415560}
+  - component: {fileID: 8603494744509367030}
   m_Layer: 0
   m_Name: LookRoot
   m_TagString: Untagged
@@ -213,6 +216,20 @@ Transform:
   m_Father: {fileID: 4584563878282850793}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8603494744509367030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4584563878817415561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52102e4647ff57c4a96c77cd0842be3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookRoot: {fileID: 4584563878817415560}
+  playerRoot: {fileID: 4584563878282850793}
 --- !u!1 &4584563879000333968
 GameObject:
   m_ObjectHideFlags: 0
